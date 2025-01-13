@@ -1,0 +1,27 @@
+@use './functions' as func;
+
+// --- Typography ---
+// Base font family
+$font-family-plus-jakarta-sans: 'Plus Jakarta Sans';
+
+// Font size definitions
+$font-size-xs: func.toRem(14);
+$font-size-s: func.toRem(16);
+$font-size-m: func.toRem(18);
+$font-size-l: func.toRem(24);
+$font-size-xl: func.toRem(56);
+
+// Font weight definitions
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// --- Spacing ---
+$spacing-100: func.toRem(8);
+$spacing-150: func.toRem(12);
+$spacing-200: func.toRem(16);
+$spacing-300: func.toRem(24);
+$spacing-400: func.toRem(32);
+$spacing-500: func.toRem(40);
+
+// --- Transition ---
+$transition-ease: all 0.3s ease;

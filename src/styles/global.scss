@@ -1,0 +1,17 @@
+@use './reset';
+@use './lib';
+
+body {
+  font: {
+    family: $font-family-plus-jakarta-sans, Arial, sans-serif;
+    size: $font-size-s;
+    weight: $font-weight-medium;
+  }
+  color: $color-slate-300;
+  background: $color-slate-100;
+
+  @include respond-to('tablet') {
+    @include flex-center;
+    min-height: 100vh;
+  }
+}
