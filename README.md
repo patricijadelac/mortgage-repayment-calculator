@@ -77,6 +77,7 @@ To get this project up and running locally, follow the steps below.
 ### Useful resources
 
 - [Form Validation in React: A Comprehensive Guide with Examples](https://codewithpawan.medium.com/form-validation-in-react-a-comprehensive-guide-with-examples-c12e1c8671f2)
+- [How to Validate Forms in React – A Step-By-Step Tutorial for Beginners](https://www.freecodecamp.org/news/how-to-validate-forms-in-react/)
 
 ## Author
 
